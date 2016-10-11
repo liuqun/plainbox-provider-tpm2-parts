@@ -1,0 +1,11 @@
+name: plainbox-provider-tpm2-parts
+summary: Tests for TPM2 snap
+description: |
+    Tests to certify the correct functioning of TPM2 devices
+version: stable
+
+parts:
+    plainbox-provider-tpm2:
+        plugin: plainbox-provider
+        source-type: git
+        source: git://git.launchpad.net/plainbox-provider-tpm2
